@@ -6,13 +6,11 @@ import router from './router'
 import vueLazyLoad from 'vue-lazyload'
 import fastclick from 'fastclick'
 import vConsole from 'vconsole'
-import Message from './test/main'
 
 // require('./mock.js');
 
 import 'common/css/reset.scss'
 import 'common/css/variable.scss'
-Vue.prototype.$test_message=Message;
 Vue.config.productionTip = false;
 fastclick.attach(document.body);
 
