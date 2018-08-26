@@ -6,11 +6,14 @@ import router from './router'
 import vueLazyLoad from 'vue-lazyload'
 import fastclick from 'fastclick'
 import vConsole from 'vconsole'
+import Message from './test/main'
+
+// require('./mock.js');
 
 import 'common/css/reset.scss'
 import 'common/css/variable.scss'
-
-Vue.config.productionTip = false
+Vue.prototype.$test_message=Message;
+Vue.config.productionTip = false;
 fastclick.attach(document.body);
 
 Vue.use(vueLazyLoad);
@@ -24,9 +27,12 @@ router.afterEach((to,from)=>{
 });
 
 /* eslint-disable no-new */
-new Vue({
+var ttt=new Vue({
   el: '#app',
   router,
   components: { App },
   template: '<App/>'
 })
+
+console.info("test",ttt);
+// console.info("tttt",typeof Vue);

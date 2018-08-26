@@ -39,11 +39,7 @@
   },
   methods:{
     test(){
-      this.flag=true;
-      if(this.flag){
-        this.$refs.right.style[transform]=`translate3d(50%,0,0)`;
-        this.$refs.right.style[transitionDuration]=`50ms`;
-      }
+      this.$test_message({message:"fdfd"});
     },
     open(){
       this.flag=true;
