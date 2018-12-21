@@ -58,32 +58,31 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss">
-  .title-content{
+<style scoped lang="stylus" type="text/stylus">
+  .title-content
     background: #f9f9f9;
     text-align: center;
-    .title-wrapper{
+    .title-wrapper
       padding-top: 15px;
       overflow: hidden;
       overflow-x: scroll;
       overflow-y: hidden;
       white-space: nowrap;
       height: 123px;
-      &::-webkit-scrollbar{
+      &::-webkit-scrollbar
         width: 0px;
-      }
-      &::-webkit-scrollbar-track-piece{
+
+      &::-webkit-scrollbar-track-piece
         background: transparent;
-      }
-      .title-item{
+
+      .title-item
         display: inline-block;
         padding: 30px;
         font-size: 45px;
         color: #666666;
-        &.checked{
+        &.checked
           color: #FB7299;
-        }
-      }
-    }
-  }
+
+
+
 </style>

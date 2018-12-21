@@ -90,54 +90,53 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss" rel="stylesheet/scss">
-  .block-content{
+<style scoped lang="stylus" type="text/stylus" rel="stylesheet/stylus">
+  .block-content
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    .title-content{
+    .title-content
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       margin: 45px 15px;
-      .title{
+      .title
         font-size: 48px;
-      }
-      .more{
+
+      .more
         font-size: 48px;
         color: #666666;
-        &.select{
+        &.select
           color: orange;
-        }
-        &.none{
+
+        &.none
           display: none;
-        }
-      }
-    }
-    .video-content{
+
+
+
+    .video-content
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-between;
-      .item{
+      .item
         display: flex;
         flex-direction: column;
         width: 508px;
         margin-bottom: 45px;
-        .item-img{
+        .item-img
           position: relative;
           width: 100%;
           height: 314px;
           border-radius: 30px;
           overflow: hidden;
-          img{
+          img
             position: absolute;
             width: 100%;
             height: 100%;
             top: 0;
 
-          }
-          .item-des{
+          .item-des
             position: absolute;
             width: 100%;
             height: 45px;
@@ -145,30 +144,30 @@
             color: #fff;
             font-size: 45px;
             background: linear-gradient(180deg,rgba(33,33,33,0),rgba(33,33,33,.5));
-            .item-play{
+            .item-play
               margin-left: 30px;
-            }
-            .item-review{
+
+            .item-review
               margin-left: 60px;
-            }
-          }
-        }
-        .item-title{
+
+
+
+        .item-title
           font-size: 38px;
           line-height: 50px;
           padding: 15px 0 0 9px;
-        }
-      }
-      .video-more{
+
+
+      .video-more
         color: #FB7299;
         text-align: center;
         line-height: 105px;
         font-size: 39px;
         background: #e7e7e7;
-        width: 100%;
+        width:  100%;
         height: 105px;
-      }
-    }
-  }
+
+
+
 
 </style>

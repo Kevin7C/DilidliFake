@@ -9,8 +9,9 @@ import vConsole from 'vconsole'
 
 // require('./mock.js');
 
-import 'common/css/reset.scss'
-import 'common/css/variable.scss'
+import 'common/css/reset.styl'
+import 'common/css/variable.styl'
+
 Vue.config.productionTip = false;
 fastclick.attach(document.body);
 

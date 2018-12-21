@@ -55,13 +55,13 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss">
-@import "../common/css/variable.scss";
-.tab{
+<style scoped lang="stylus" type="text/stylus">
+@import "../common/css/variable.styl";
+.tab
   width: 100%;
   font-size: 0;
   overflow: hidden;
-  .tab-details{
+  .tab-details
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -71,30 +71,30 @@
     transform: translate(0,-100%);
     -webkit-transform: translate(0,-100%);
     overflow: hidden;
-    .tab-details-wrapper{
+    .tab-details-wrapper
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
       -webkit-justify-content: space-between;
-      a{
+      a
         display: block;
         color: #666666;
         text-decoration: none;
         margin: 0 39px;
         padding: 45px 0 30px 0px;
-        &.router-link-active{
+        &.router-link-active
           color:#FB7299 !important;
           border-bottom: 4px solid #FB7299;
-        }
-      }
-    }
-    .switch-up{
+        
+      
+    
+    .switch-up
       text-align: center;
       margin: 30px;
-    }
-  }
-  .tab-wrapper{
+    
+  
+  .tab-wrapper
     display: inline-block;
     width: 80%;
     white-space: nowrap;
@@ -106,15 +106,15 @@
     overflow-scrolling: touch;
     text-align: justify; /* 3 */
     height: 90px;
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar
       width: 0px;
-    }
-    &::-webkit-scrollbar-track-piece{
+    
+    &::-webkit-scrollbar-track-piece
       background: transparent;
-    }
-    .test{
+    
+    .test
       height: 90px;
-      .tab-item{
+      .tab-item
         display: inline-block;
         text-align: center;
         height: 60px;
@@ -123,26 +123,26 @@
         color: #666666;
         padding: 6px 0;
         margin: 0 45px;
-        .tab-link{
+        .tab-link
           border-bottom: transparent;
-        }
-        &.router-link-active{
-          .tab-link{
+        
+        &.router-link-active
+          .tab-link
             color: #FB7299 !important;
             border-bottom: 4px solid #FB7299;
-          }
-        }
-      }
-    }
-  }
-  .switch-down{
+          
+        
+      
+    
+  
+  .switch-down
     /*z-index: 11;*/
     position: absolute;
     font-size: 45px;
     right: 90px;
     top: 220px;
-  }
-}
+  
+
 
 
 </style>

@@ -26,27 +26,27 @@
     }
 </script>
 
-<style scoped lang="scss" rel="stylesheet/scss" type="text/scss">
-  .user{
+<style scoped lang="stylus" rel="stylesheet/stylus" type="text/stylus">
+  .user
     display: flex;
     flex-direction: column;
     padding: 60px;
     background: #333;
     height: 100%;
-    .item{
+    .item
       display: block;
       width: 100%;
       padding: 60px 0;
       color: white;
       text-align: left;
-    }
-    .image{
+    
+    .image
       vertical-align: middle;
       width: 100%;
-      img{
+      img
         width: 100%;
-      }
-    }
-  }
+      
+    
+  
 
 </style>

@@ -38,7 +38,7 @@ exports.cssLoaders = function (options) {
 
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader, loaderOptions) {
-    const loaders = options.usePostCSS ? [cssLoader, postcssLoader,px2remLoader] : [cssLoader,px2remLoader]
+    const loaders = options.usePostCSS ? [cssLoader, postcssLoader,px2remLoader] : [cssLoader,postcssLoader,px2remLoader]
 
     if (loader) {
       loaders.push({
@@ -47,6 +47,9 @@ exports.cssLoaders = function (options) {
           sourceMap: options.sourceMap
         })
       })
+      loaders.splice((loaders.length-1),0,postcssLoader);
+    }else{
+      loaders.push(postcssLoader);
     }
 
     // Extract CSS when that option is specified

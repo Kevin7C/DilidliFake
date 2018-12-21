@@ -139,13 +139,13 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss">
-  .common-content{
+<style scoped lang="stylus" type="text/stylus">
+  .common-content
     width: 100%;
-    .test{
+    .test
       width: 100%;
       height: 120px;
       background: pink;
-    }
-  }
+
+
 </style>

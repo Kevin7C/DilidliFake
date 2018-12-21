@@ -34,9 +34,9 @@
     }
 </script>
 
-<style scoped lang="scss" rel="stylesheet/scss" type="text/scss">
-  @import "../common/css/variable.scss";
-  .search{
+<style scoped lang="stylus" rel="stylesheet/stylus" type="text/stylus">
+  @import "../common/css/variable.styl";
+  .search
 
     width: 100%;
     display: flex;
@@ -45,14 +45,13 @@
     padding:30px 15px;
     background: #fff;
     z-index: 99;
-    .menu-wrapper{
+    .menu-wrapper
       width: 60px;
       margin-top: 30px;
-      img{
+      img
         width: 45px;
-      }
-    }
-    .search-wrapper{
+
+    .search-wrapper
       flex:1 1 80%;
       display: flex;
       align-items:center;
@@ -62,30 +61,27 @@
       margin: 0 20px;
       background: #f0f0f0;
       border-radius:90px;
-      -webkit-border-radius: 90px;
-      .input{
+      .input
         width: 100%;
         padding: 0 90px 0 90px;
         margin: 0 30px;
-        line-height: 54px;
+        font-size :50px
+        line-height: 50px;
         background:#f0f0f0;
         background-image: url("http://m.dilidili.wang/dist/18may/images/search.png");
         background-repeat: no-repeat;
         background-size: 45px 45px;
         background-position: 30px;
-      }
-    }
-    .user-wrapper{
+      
+    
+    .user-wrapper
       width: 60px;
       margin-top: 30px;
       margin-right: 30px;
-      img{
+      img
         width: 45px;
-      }
-    }
-  }
-
-  @keyframes up-down {
-
-  }
+      
+    
+  
+  
 </style>

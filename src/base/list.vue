@@ -37,17 +37,17 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss">
-  .list-content{
+<style scoped lang="stylus" type="text/stylus">
+  .list-content
     display: flex;
     flex-direction: column;
-    .list-item{
+    .list-item
       width: 100%;
       padding: 45px 0;
       border-bottom: 1px solid #e7e7e7;
       display: flex;
       flex-direction: column;
-      .list-img{
+      .list-img
         position: relative;
         width: 100%;
         height: 640px;
@@ -55,25 +55,25 @@
         -webkit-border-radius: 30px;
         overflow: hidden;
         background: #fff;
-        img{
+        img
           position: absolute;
           top:0;
           width: 100%;
           height: 100%;
-        }
-        .list-description{
+        
+        .list-description
           position: absolute;
           bottom: 0px;
           color: #fff;
           font-size: 40px;
           padding: 0 0 8px 45px;
           background: linear-gradient(180deg,rgba(33,33,33,0),rgba(33,33,33,.5));
-        }
-      }
-      .list-title{
+        
+      
+      .list-title
         margin: 30px 0 0 15px;
         font-size: 45px;
-      }
-    }
-  }
+      
+    
+  
 </style>

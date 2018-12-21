@@ -10,10 +10,10 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss">
-  .bottom{
+<style scoped lang="stylus" type="text/stylus">
+  .bottom
     text-align: center;
     height: 300px;
     line-height: 300px;
-  }
+
 </style>

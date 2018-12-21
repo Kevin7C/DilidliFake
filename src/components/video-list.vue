@@ -135,11 +135,11 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss">
-  .video-content{
+<style scoped lang="stylus" type="text/stylus">
+  .video-content
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-  }
+
 </style>

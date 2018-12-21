@@ -85,8 +85,8 @@
     }
 </script>
 
-<style scoped lang="scss" type="text/scss" >
-  .guide-content{
+<style scoped lang="stylus" type="text/stylus" >
+  .guide-content
     width: 100%;
-  }
+
 </style>

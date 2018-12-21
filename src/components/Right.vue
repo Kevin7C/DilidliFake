@@ -10,8 +10,3 @@
     }
 </script>
 
-<style scoped lang="scss" rel="stylesheet/scss" type="text/scss">
-  .right{
-    
-  }
-</style>

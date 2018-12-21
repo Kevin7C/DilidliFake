@@ -56,26 +56,26 @@
 }
 </script>
 
-<style scoped lang="scss" rel="stylesheet/scss" type="text/scss">
-  .app{
-    .left{
+<style scoped lang="stylus" rel="stylesheet/stylus" type="text/stylus">
+  .app
+    .left
       position: absolute;
       left: 0;
       top: 0;
       bottom: 0;
       width: 50%;
-    }
-    .right{
+    
+    .right
       display: flex;
       background: #fff;
       flex-direction: column;
-      .bottom{
+      .bottom
         text-align: center;
         height: 100px;
         line-height: 100px;
-      }
-    }
-    .blocker{
+      
+    
+    .blocker
       position: fixed;
       top: 0;
       bottom: 0;
@@ -86,6 +86,6 @@
       transform: translate(50%,0);
       -webkit-transform: translate(50%,0);
       -moz-transform: translate(50%,0);
-    }
-  }
+    
+  
 </style>
